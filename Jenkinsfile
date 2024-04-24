@@ -9,7 +9,7 @@ pipline {
     }
     stage('Test'){
       steps{
-        echo "Fake test stage'
+        echo 'Fake test stage'
         sh "ls"
       }
     }
